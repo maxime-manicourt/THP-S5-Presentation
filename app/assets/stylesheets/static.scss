@@ -1,0 +1,94 @@
+// Place all the styles related to the static controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #EFEFEF;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato Heavy";
+}
+
+.three-cards {
+  //background-color: khaki;
+
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.three-cards p {
+  font-family: Loma;
+  padding: 15px;
+}
+
+.card-purple {
+  width: 300px;
+  height: 300px;
+  background-color: rebeccapurple;
+  //padding: 150px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+
+.card-purple:hover {
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+.card-green {
+  width: 300px;
+  height: 300px;
+  background-color: forestgreen;
+  //padding: 150px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+
+.card-green:hover {
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+.about {
+  padding: 0 10px 10px 10px;
+  font-family: Loma;
+  text-decoration: underline;
+}
+
+.about:hover {
+  color: #313;
+}
+
+.card-gold {
+  width: 300px;
+  height: 300px;
+  background-color: gold;
+  //padding: 150px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+
+.card-gold:hover {
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.desc-in-card {
+  color: #fff;
+}
+
+span {
+  padding: 50px 125px 0 125px;
+  display: inline-block;
+}
